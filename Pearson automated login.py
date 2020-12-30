@@ -1,7 +1,7 @@
 from selenium import webdriver
 
-username = ("akhogali1")
-password = ("KLCnezL9")
+username = ("exampleusername")
+password = ("examplepassword")
 
 driver = webdriver.Chrome('C:\Program Files (x86)\chromedriver.exe')
 driver.get("https://login.pearson.com/v1/piapi/piui/signin?client_id=dN4bOBG0sGO9c9HADrifwQeqma5vjREy&okurl=https:%2F%2Fportal.mypearson.com%2Fcourse-home&siteid=8313")
